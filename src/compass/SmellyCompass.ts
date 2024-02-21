@@ -1,9 +1,4 @@
-export enum CompassPoints {
-  North = 'N',
-  East = 'E',
-  South = 'S',
-  West = 'W',
-}
+import { CompassPoints } from './CompassPoints';
 
 export class SmellyCompass {
   constructor(private readonly direction: CompassPoints) {}

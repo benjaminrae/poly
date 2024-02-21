@@ -1,4 +1,5 @@
-import { CompassPoints, SmellyCompass } from './SmellyCompass';
+import { CompassPoints } from './CompassPoints';
+import { SmellyCompass } from './SmellyCompass';
 
 describe('SmellyCompass', () => {
   it.each([
